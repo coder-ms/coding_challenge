@@ -1,0 +1,90 @@
+/* immagine di sfondo centrata e adattata */
+body{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* container in trasparenza che racchiude le informazioni del noleggiato */
+.container {
+	width: 900px;
+	margin:30px auto 0;
+	background-color: rgba(0, 0, 0, 0.50);;
+	border-radius: 15px;
+	padding: 100px;
+}
+
+/* centred logo and title */
+header, #title{
+	text-align: center;
+	color:#00dd10;
+	margin:5px;
+}
+
+/* width logo header */
+#logo{
+	width: 20%;
+}
+
+/* Contenitore allineamento contenuto pagina: barra menù ed elenco monopattini disponibili */
+.content{
+	border: 0;
+	width: 900px;
+	margin:auto;
+}
+
+/* menù gestione noleggio centrato  */
+nav{
+	text-align:center;
+}
+
+/* sfondo menu */
+.main_menu{
+	width: auto;
+	margin:auto;
+	background-color: #15d015;
+	padding: 10px;
+}
+
+/* Bottoni menù inline */
+input{
+    display: inline-block;
+}
+
+/* Colore testo sezione monopattini e margine */
+.monopattino, div{
+	color: white;
+	margin-top: 6px;
+}
+
+/* Nome (titolo) monopattini disponibile - inline con checkbox */
+h2{
+	display: inline-block;
+	margin-top: 15px;
+}
+
+
+/* battery bar monopattino gino22 */
+.battery_gino22{
+	width: 360px;
+	background-color: #e5b10a;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+/* battery bar monopattino mike24 */
+.battery_mike24{
+	width: 548px;
+	background-color: #00ff00;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+/* battery bar monopattino fede154 */
+.battery_fede154{
+	width: 120px;
+	background-color:#ff0000;
+	padding: 12px;
+	border-radius: 8px;
+}
